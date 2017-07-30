@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 65
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 66
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -386,19 +386,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Objects/NPC
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Objects/NPC
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kiera\OneDrive\Documents\Unity Projects\MyFirstGame
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae300000
-    m_LastClickedID: 12462
-    m_ExpandedIDs: 000000008c2600007a2700009c270000ae270000ca2800004a2900005e2a0000ea2a0000362b000000ca9a3bffffff7f
+    m_SelectedIDs: 36270000
+    m_LastClickedID: 10038
+    m_ExpandedIDs: 000000008c2600007e270000b2270000d82800005a290000782a00000c2b0000582b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -426,7 +426,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c2600007a2700009c270000ae270000ca2800004a2900005e2a0000ea2a0000362b0000
+    m_ExpandedIDs: 000000008c2600007e270000a0270000b2270000d82800005a290000782a00000c2b0000582b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,9 +542,9 @@ MonoBehaviour:
     height: 764
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de49fdff
-    m_LastClickedID: -177698
-    m_ExpandedIDs: de49fdffc8e6feffd2e6feffaa5ffffff4faffff1afcffff00000000982d0000
+    m_SelectedIDs: 44010000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 08fcffff1afcffff00000000742d00003e2e0000ee2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -594,14 +594,14 @@ MonoBehaviour:
     width: 794
     height: 764
   m_SceneLighting: 1
-  lastFramingTime: 1366.4139008859322
+  lastFramingTime: 2739.815508393531
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 417.73965, y: 557.1421, z: -136.36053}
+    m_Target: {x: -0.875, y: 2.769, z: -4.085}
     speed: 2
-    m_Value: {x: 417.73965, y: 557.1421, z: -136.36053}
+    m_Value: {x: -0.875, y: 2.769, z: -4.085}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -624,13 +624,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0016472469, y: 0.9982918, z: 0.03555943, w: 0.046329424}
+    m_Target: {x: 0.0021261538, y: 0.99542916, z: -0.022794047, w: 0.092718534}
     speed: 2
-    m_Value: {x: -0.0016472469, y: 0.9982918, z: 0.03555943, w: 0.046329424}
+    m_Value: {x: 0.0021261538, y: 0.99542916, z: -0.022794047, w: 0.092718534}
   m_Size:
-    m_Target: 726.8264
+    m_Target: 3.777023
     speed: 2
-    m_Value: 726.8264
+    m_Value: 3.777023
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -741,5 +741,5 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1281
     y: 885
-    width: 996
+    width: 999
     height: 492

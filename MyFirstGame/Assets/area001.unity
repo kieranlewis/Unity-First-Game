@@ -2004,6 +2004,41 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b68723e28133de94ebf18b5e75bda2fe, type: 3}
   m_PrefabInternal: {fileID: 580829121}
+--- !u!1 &608377923 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: b39d2f2e087ff2c48a691b300da15d80, type: 3}
+  m_PrefabInternal: {fileID: 212556073}
+--- !u!114 &608377924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 608377923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6873cd5e220940a41a08b66f30fa3611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextBoxOnCheck: 0
+  MessageBox: {fileID: 1066365352}
+  TextBox: {fileID: 1730506361}
+  TextMessage: 'Villager: Hello, some bandits have stolen my money. Could you retrieve
+    it from them on the other side of the river?'
+  QuestBox: {fileID: 222874341}
+  QuestText: {fileID: 1050357367}
+  QuestName: 
+--- !u!65 &608377925
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 608377923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 1.75, z: 0.6}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &621711641
 GameObject:
   m_ObjectHideFlags: 0
@@ -6849,7 +6884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1066365353
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8706,8 +8741,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 215.1, y: 1.9}
-  m_SizeDelta: {x: 409.8, y: 80.5}
+  m_AnchoredPosition: {x: 239.06, y: 0.81}
+  m_SizeDelta: {x: 457.73, y: 90.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1730506363
 MonoBehaviour:
@@ -8741,7 +8776,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello Traveler.
+  m_Text: 'Villager: Hello, some bandits have stolen my money. Could you retrieve
+    it from them on the other side of the river?'
 --- !u!222 &1730506364
 CanvasRenderer:
   m_ObjectHideFlags: 0
